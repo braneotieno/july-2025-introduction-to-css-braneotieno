@@ -1,0 +1,83 @@
+/* Reset some default browser styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9fafc;
+  color: #333;
+}
+
+/* Header styling */
+.header {
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar {
+  margin-top: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 5px 10px;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: #004080;
+  border-radius: 5px;
+}
+
+/* Main content styling */
+.content {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+/* Card sections */
+.card {
+  background-color: #ffffff;
+  border: 2px solid #ddd;
+  padding: 20px;         /* Inside spacing */
+  margin-bottom: 20px;   /* Outside spacing */
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Demonstrating Box Model clearly */
+.card p {
+  background-color: #f0f8ff;
+  border: 1px dashed #004080;
+  padding: 10px;   /* space inside text box */
+  margin: 15px 0;  /* space outside text box */
+}
+
+/* Button styling */
+.btn {
+  display: inline-block;
+  padding: 12px 20px;  /* Padding shows inside space */
+  margin: 20px 0;      /* Margin shows space outside */
+  border: 2px solid #004080;
+  background-color: #004080;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #004080;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #eee;
+  padding: 15px;
+  margin-top: 30px;
+  border-top: 2px solid #ccc;
+}
